@@ -1,0 +1,58 @@
+doctype html 
+html 
+    head 
+        title  Hatim's Dance Academy 
+        style 
+            include ../static/style.css
+        
+        
+    body 
+        nav#navbar 
+            ul
+                div#logo
+                    img(src="../static/img/logo.png", alt="")
+                    |HAD 
+                li #[a(href="/") Home]
+                li #[a(href="/about") About]
+                li #[a(href="/ClassInfo") Class Info]
+                li #[a(href="/contact") Contact Us]
+        section#imagesection 
+              div#ag 
+                 h2       Welcome to #[a.w H]#[a.b A]#[a.b T]#[a.b I]#[a.b M]#[a.w 'S] Dance Academy 
+                 div#head Dance, Dance ,And Just Dance  
+        section#aimsection 
+          h1  OUR AIM
+          div#aim 
+            ul 
+             p#bold Create brave and inviting spaces for students.
+               li#line Sustain attention to imparting program ethos through all aspects of the program including, students, faculty, guest artists, and parents/guardians.
+               li#line Cultivate an environment of expectation, rather than hesitation, when addressing instances and systems of inequality.
+               li#line Model excellence in leadership, participation, and reflection.
+            ul  
+              p#bold Engage critical studies of the histories of dance, theater, and performance.
+               li#line Learn the vocabulary and practice methods of respectful evaluation and generative critique.
+               li#line Pursue creative and scholarly research with a nuanced understanding of cultural context.
+               li#line Demonstrate clear and effective academic writing in the field.
+            ul  
+               p#bold Strengthen creative skills through the creative process of Making.
+               li#line Apply a variety of criteria, aesthetics, and approaches to the understanding and valuing of dance making and performing.
+               li#line Practice collaboration within the creative process.
+               li#line Create unique, challenging and diverse performances to share them with our community.
+        section#slide 
+          div.w3-content.w3-display-container
+                 img.mySlides(src="static/img/slide1.jpg")
+                 img.mySlides(src="static/img/slide2.jpg")
+                 img.mySlides(src="static/img/slide3.jpg")
+                 img.mySlides(src="static/img/slide4.jpg")
+        section#sponsorsection 
+            h1 SPONSORS
+            div#sponsors
+                img(src="../static/img/logo1.png", alt="sponsor") 
+                img(src="../static/img/logo2.png", alt="sponsor") 
+                img(src="../static/img/logo3.png", alt="sponsor") 
+                img(src="../static/img/logo4.png", alt="sponsor") 
+        footer#footer 
+           | copyright © 2021 Hatim'sDanceAcademy.com | All rights reserved
+
+        script
+             include ../index.js

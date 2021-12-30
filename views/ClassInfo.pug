@@ -1,0 +1,65 @@
+extends  base.pug
+
+block scripts 
+  script(src='/app.js')
+
+block style 
+   style 
+     include ../static/style.css
+     include ../static/ClassInfo.css
+    
+block content 
+    div
+     
+      table 
+        TR
+            h3#tablehead CLASS SCHEDULE
+        TR
+          TH 
+          TH MONDAY
+          TH TUESDAY
+          TH WEDNESDAY          
+          TH THURSDAY
+          TH FRIDAY
+          TH SATURDAY
+          TH        
+        TR
+          TH BATCH 1
+          TD 10:00-11:30
+          TD 10:00-11:30
+          TD 10:00-11:30
+          TD 10:00-11:30
+          TD 10:00-11:30
+          TD 10:00-11:30
+          TD 
+            a(href="/CONTACT") ENROLL NOW
+        TR
+          TH BATCH 2
+          TD 12:00-01:30
+          TD 12:00-01:30
+          TD 12:00-01:30
+          TD 12:00-01:30
+          TD 12:00-01:30
+          TD 12:00-01:30
+          TD 
+            a(href="/CONTACT") ENROLL NOW
+        TR
+          TH BATCH 3
+          TD 03:00-04:30
+          TD 03:00-04:30
+          TD 03:00-04:30
+          TD 03:00-04:30
+          TD 03:00-04:30
+          TD 03:00-04:30
+          TD 
+            a(href="/CONTACT") ENROLL NOW          
+        TR
+          TH BATCH 4
+          TD 05:00-06:30
+          TD 05:00-06:30
+          TD 05:00-06:30
+          TD 05:00-06:30
+          TD 05:00-06:30
+          TD 05:00-06:30
+          TD 
+            a(href="/CONTACT") ENROLL NOW          

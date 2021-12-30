@@ -1,0 +1,39 @@
+extends  base.pug
+block style 
+  style 
+      include ../static/style.css
+      include ../static/about.css
+    
+block content 
+    div.up
+       h1 About us 
+       p If you’re looking for dance classes in Ujjain and Indore, you’ve come to the right place! Ballet, Jazz, Contemporary, Jazz Funk, Heels, Street. We’ve got it all!
+       p You can also access a real, professional and international dance education in all of the above styles, no matter where you are located through our online dance classes!
+       p The HDA started life in 2015 as the Association of Teachers of Operatic Dancing in  Ujjain. It was born out of a meeting of leading dance professionals arranged by Hatim Saifee, former editor of the Dancing Times. With Nidhi Panthi chosen from among her peers as its first President, the Association launched its first syllabus in the same year and held its first exams in 2017.
+    div.adress 
+      div.adressbox 
+         ul
+          li.brownish UJJAIN OFFICE
+          li HATIM'S DANCE ACADEMY,
+          li 314, Laxmi Business Park,
+          li Laxmi Industrial estate,
+          li New Link Road, Ujjain south,
+          li Ujjain - 456001,
+          li Madhya Pradesh, India. 
+      div.adressbox    
+        ul
+          li.brownish INDORE OFFICE
+          li HATIM'S DANCE ACADEMY,
+          li C-2, Creche Plot, Sushant Lok Phase 1,
+          li Near Vyapar Kendra,
+          li Indore - 456004,
+          li Madhya Pradesh, India.
+      div.getdancing 
+          a GET DANCING!
+      div.image   
+         img.mySlides(src="static/img/slide1.jpg")
+         img.mySlides(src="static/img/slide2.jpg")
+         img.mySlides(src="static/img/slide3.jpg")
+         img.mySlides(src="static/img/slide4.jpg")
+    script
+       include ../index.js

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fuzzy+Bubbles&display=swap');
+*{padding: 0px;
+    margin: 0px;
+
+}body {
+    
+ }
+
+#navbar{
+background-color: #631616;
+padding: 14px ;
+
+
+
+}
+#navbar ul{    height: 19px;
+   align-items: center;
+text-align: center;
+display: flex;
+}
+#navbar ul li{
+    color: white;
+list-style: none;
+padding: 0px 30px;
+}
+#navbar ul li a{ font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+#logo{
+    align-items: center;
+    height: 40px;
+    color: white;
+    margin: 0px 0px;
+padding: 0px 0px;
+font-size: 5px;
+
+}
+
+#logo img{
+   filter: invert(1);
+    height: 40px;
+
+}
+#imagesection{
+    font-family: 'Fuzzy Bubbles';
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    font-weight: bold;
+    background-image: url("static/img/bg.jpg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:cover; /* Resize the background image to cover the entire container */
+    color: aliceblue;
+    
+    
+}
+.mySlides{justify-content: center;
+    align-content: center;
+    margin: auto;
+    width:60%;
+    height: 450px;
+}
+#imagesection h2{
+    font-size:45px;
+    padding:5px;
+    font-weight: bold;
+    color: aliceblue;
+   
+} 
+#head{
+    padding:5px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-bottom: 26px;
+}
+
+ #sponsorsection h1{
+    ALIGN-ITEMS: center;
+    JUSTIFY-CONTENT: CENTER;
+    padding: 10px;
+    margin: 15PX AUTO;
+    width: 159px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    border-radius: 45px;
+    color: #631622;
+    font-size: 33px;
+    font-style: bold;
+}
+
+#sponsorsection {margin-top: 50px;
+   
+    height: 300px;
+ 
+    text-align: center;
+}
+#sponsors{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    height: 250px;
+} 
+#sponsors img{
+    height: 60%;
+    padding: 10px 36px;
+    width: 200px;
+    height: 170px;
+    transition: width 2s, height 4s;
+    transition-delay: 1s;
+    margin: auto;
+    justify-content: center;
+}
+#sponsors img:hover{
+    
+    width: 290px;
+    height: 220px;
+    
+}
+  
+#aimsection h1{
+    font-size: 33px;
+    padding:10px;
+    margin:  auto;
+    border: 2px solid white;
+    width: 159px;
+    border-radius: 45px;
+    font-family:'Fuzzy Bubbles', cursive ;
+    font-style: bold;
+}
+ #aimsection{
+    text-align: center;
+    background-color: WHITE;
+    height: 450px;
+    COLOR: #631616;
+
+}
+
+
+#aim{
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+#aim ul{
+    width: 33%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:2px;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+#aim ul:hover{
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:2px;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+#bold {padding:5px;
+    margin: 5px;
+    font-size: 1.3rem;
+    font-family: 'Fredoka One', cursive ;
+   
+}
+#line{margin:5px;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    list-style: none;
+    }
+    #bl{color:black;
+        font-family: 'Fredoka One', cursive ;
+   font-size: 3rem;}
+#ag{
+    margin-bottom: 2px;
+}
+#footer{
+    height: 20px;
+    PADDING: 10PX;
+    align-content: center;
+    TEXT-ALIGN: center;
+    justify-content: center;
+    background-color: #f29d9f;
+    
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fuzzy+Bubbles&display=swap');
+div{
+    justify-content: center;
+    color: #631616;
+}
+div h1{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Fuzzy Bubbles', cursive; 
+}
+#tablehead{
+    margin: AUTO;
+    MARGIN-TOP: 71PX;
+    padding: 0px;
+    font-size: 2em;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Fuzzy Bubbles', cursive; 
+}
+table{
+    border: 5PX;
+    PADDING: 40PX;
+    MARGIN: 10PX
+
+
+}
+div table tr td {
+    padding: 5px;
+    align-content: center;
+    text-align: center;
+    text-decoration: NONE;
+    
+}
+div table tr th {
+    font-family: 'Fredoka One', cursive ;
+    padding: 30px;
+    align-content: center;
+    text-align: center;
+}

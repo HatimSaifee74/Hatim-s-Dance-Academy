@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fuzzy+Bubbles&display=swap');
+.up {
+    padding: 10px;
+    margin: 5px auto;
+    width: 70%;
+    color: #631616;
+    border-radius: 8px;
+    background-color: #e4bf73;
+}
+    .up h1{
+        font-size: 60px;
+        padding: 16px;
+        margin: 5px auto;
+        text-align: center;
+        font-family: 'Fredoka One', cursive ;
+
+}
+.up p{
+   
+   
+    padding-left: 35px;
+    margin: 20px auto;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 17px;
+    color: #63161696;
+   
+}
+.adress{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    background-color: #dcb89c;
+    height: 318px;
+}
+.adressbox{
+    padding: 10px;
+    margin: 10px;
+
+}
+.adressbox li{
+    list-style: none;
+    padding: 4px;
+    margin: 5px;
+    color:  #695238;
+}
+
+.mySlides{
+    height:305px;
+padding-left: 215px;
+}
+.getdancing{
+    height: 12px;
+    font-size: 30px;
+    font-weight: 800;
+    margin: AUTO;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: #954f35;}
+    .brownish{
+        text-decoration: solid;
+    background-color: #e4bf73;
+    padding: 0px 38px;
+    border-radius: 10px;
+    }
